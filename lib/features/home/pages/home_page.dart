@@ -44,7 +44,7 @@ class _HomePageState extends State<HomePage> {
               style: const TextStyle(color: Colors.black,fontSize: 16,fontWeight: FontWeight.w500),
               decoration: InputDecoration(
                 hintText: 'Yolda qancha masofa bor',
-                labelText: 'Yolda qancha masofa bor (km)',
+                labelText: 'Yolda qancha masofa bor (m)',
                 enabledBorder: OutlineInputBorder(
                   borderSide: const BorderSide(color: Color(0xFFE7ECF3), width: 1),
                   borderRadius: BorderRadius.circular(6),
