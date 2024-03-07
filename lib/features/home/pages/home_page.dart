@@ -198,7 +198,7 @@ class _HomePageState extends State<HomePage> {
     }else{
      sum += (fiveDistance / 5.0) * distance;
     }
-    summa  = sum.toString();
+    summa  = sum.round().toString();
     setState(() {
 
     });
